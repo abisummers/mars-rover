@@ -30,8 +30,6 @@ function turnLeft(rover) {
   }
 }
 
-//turnLeft(rover);
-
 function turnRight(rover) {
   console.log("turnRight was called!");
 
@@ -57,8 +55,6 @@ function turnRight(rover) {
       break;
   }
 }
-
-//turnRight(rover);
 
 function moveForward(rover) {
   console.log("moveForward was called");
@@ -91,9 +87,6 @@ function moveBackwards(rover) {
     throw new Error("the rover is off the grid at " + [rover.X, rover.Y]);
   }
 }
-
-//moveForward(rover);
-console.log(rover.X, rover.Y);
 
 function roverCommands(rover, directions) {
   var commands = directions.split("");
