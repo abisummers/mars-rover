@@ -1,0 +1,11 @@
+{
+  "name": "mars rover",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
+}
