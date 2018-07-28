@@ -99,6 +99,8 @@ function roverCommands(rover, directions) {
       turnLeft(rover);
     } else if (command === "r") {
       turnRight(rover);
+    } else {
+      throw new Error("the command does not exist: " + command);
     }
     rover.travelLog.push([rover.X, rover.Y]);
   });
